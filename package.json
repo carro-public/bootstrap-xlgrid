@@ -1,0 +1,66 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "bootstrap-xlgrid@git+https://github.com/psgganesh/bootstrap-xlgrid.git",
+        "scope": null,
+        "escapedName": "bootstrap-xlgrid",
+        "name": "bootstrap-xlgrid",
+        "rawSpec": "git+https://github.com/psgganesh/bootstrap-xlgrid.git",
+        "spec": "git+https://github.com/psgganesh/bootstrap-xlgrid.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:psgganesh/bootstrap-xlgrid.git",
+          "sshUrl": "git+ssh://git@github.com/psgganesh/bootstrap-xlgrid.git",
+          "httpsUrl": "git+https://github.com/psgganesh/bootstrap-xlgrid.git",
+          "gitUrl": "git://github.com/psgganesh/bootstrap-xlgrid.git",
+          "shortcut": "github:psgganesh/bootstrap-xlgrid",
+          "directUrl": "https://raw.githubusercontent.com/psgganesh/bootstrap-xlgrid/master/package.json"
+        }
+      },
+      "/home/forge/auction-hy.genie.sg"
+    ]
+  ],
+  "_from": "git+https://github.com/psgganesh/bootstrap-xlgrid.git",
+  "_id": "bootstrap-xlgrid@1.0.0",
+  "_inCache": true,
+  "_location": "/bootstrap-xlgrid",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "bootstrap-xlgrid@git+https://github.com/psgganesh/bootstrap-xlgrid.git",
+    "scope": null,
+    "escapedName": "bootstrap-xlgrid",
+    "name": "bootstrap-xlgrid",
+    "rawSpec": "git+https://github.com/psgganesh/bootstrap-xlgrid.git",
+    "spec": "git+https://github.com/psgganesh/bootstrap-xlgrid.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:psgganesh/bootstrap-xlgrid.git",
+      "sshUrl": "git+ssh://git@github.com/psgganesh/bootstrap-xlgrid.git",
+      "httpsUrl": "git+https://github.com/psgganesh/bootstrap-xlgrid.git",
+      "gitUrl": "git://github.com/psgganesh/bootstrap-xlgrid.git",
+      "shortcut": "github:psgganesh/bootstrap-xlgrid",
+      "directUrl": "https://raw.githubusercontent.com/psgganesh/bootstrap-xlgrid/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/psgganesh/bootstrap-xlgrid.git#6011e55830cf014ee869e11f691a8c6fb5ecca63",
+  "_shasum": "c4fa80e44fd927ba3ff080ed0320253ea1269d69",
+  "_shrinkwrap": null,
+  "_spec": "bootstrap-xlgrid@git+https://github.com/psgganesh/bootstrap-xlgrid.git",
+  "_where": "/home/forge/auction-hy.genie.sg",
+  "dependencies": {},
+  "description": "Bootstrap classes for large screen devices.",
+  "devDependencies": {},
+  "gitHead": "6011e55830cf014ee869e11f691a8c6fb5ecca63",
+  "name": "bootstrap-xlgrid",
+  "optionalDependencies": {},
+  "private": true,
+  "readme": "# bootstrap-xlgrid\n\nBootstrap 3 XL CSS Grid addition for big and retina screens coverage.\n\n## Extends Bootstrap v3 by:\n* Adding col-xl (1600+), col-xxl (1920+), col-xxxl (2560+) classes with all related options: pull, push, offset\n* Adding visible and hidden options for all three\n* Optionally limiting visible-lg, hidden-lg (1200+) classes to max 1600px\n* Optionally increasing container fixed width for all three screen sizes\n\n## Installation\n### Basic\nSimply include bootstrap-xlgrid.min.css file in header, after bootstrap.css and before your own CSS styles.\n\n### Remove fixed width increase for big screens\nDelete block from beginning of css file which says \"Set containers fixed sizes...\".\nNote: You can still use 'col' classes full with containers '.container-fluid'.\n\n### Remove fixing/limiting of visible-lg and hidden-lg classes\nDelete block from beginning of css file which says \"Fix visible-lg and hidden-lg...\".\nNote: Bootstrap default behaviour is that '-lg' works for all screens 1200+. This sets maximum of 1600 and for bigger you have to use 'visible-xxl' etc.\n\n## Other\n* MIT license, so use, modify and improve as you wish\n* Fork & Pull requests are welcome\n* Will be glad to hear about projects you have used this on\n* Enjoy\n",
+  "readmeFilename": "README.md",
+  "version": "1.0.0"
+}
